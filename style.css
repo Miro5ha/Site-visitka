@@ -1,3 +1,4 @@
+@import url(https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css);
 *{
     box-sizing: border-box;
     margin: 0;
@@ -165,4 +166,47 @@
     letter-spacing: 1.5px;
     text-align: center;
     display: block;
+}
+.audio-holder{
+    width: 540px;
+}
+.audio-detail{
+    flex: 1;
+}
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.control i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.audio-author{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.time{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.footer{
+    background-color: #f5f6f8;
+    padding: 60px 0;
+}
+.course-info-title{
+    font-weight: 600;
+    font-size: 70px;
+    color: 1a1a1a;
+    padding-bottom: 40px;
 }

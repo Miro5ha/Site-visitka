@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My PORTFOLIO</title>
+    <title>Site visitka</title>
 </head>
 <body>
     <header class="header">
@@ -53,20 +53,86 @@
                             consequat. Duis aute irure dolor in 
                         </p>
                     </div>
-                    <div class="audio-block">
-                        <img src="img/man-avatar.png" alt="">
-                        <div class="audio-container">
-                            <img src="img/audio.png" alt="" class="audio-track">
-                            <a href="#" class="play-btn">
-                                <img src="img/icons/play.svg" alt="">
-                            </a>
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <div class="audio-detail">
+                                    <div class="control">
+                                        <i class="fi-rr-play" id="playPause"></i>
+                                    </div>
+                                    <div id="wave"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="audio-author">
+                            <div>
+                                <h2 class="about-title">Testimonial</h2>
+                                <span class="about-subtitle">Tom Hope</span>
+                            </div>
+
+                            <div class="time">
+                                <span id="current">0:00</span>
+                                <span id="duration">0:00</span>
+                            </div>
                         </div>
                     </div>
-                    <h2 class="about-title">Testimonial</h2>
-                    <span class="about-subtitle">Tom Hope</span>
                 </div>
             </section>
         </div>
+        <main class="main-content">
+            <div class="container">
+              <section class="courses">
+                <h1 class="course-section-title">Popular Courses <br> this week</h1>
+                <section class="course-row">
+                  <div class="course-card card-big">
+                    <div class="img-container img-card-1">
+                      <span class="btn-time">15 mins</span>
+                      <span class="btn-raiting">
+                        4.8
+                        <img src="/img/icons/star.svg" width="15" height="15" alt="">
+                      </span>
+                    </div>
+                    <div class="info-container">
+                      <h4 class="course-category">PHOTOGRAPHY</h4>
+        
+                      <h2 class="course-title">Create an attractive product photography</h2>
+        
+                      <p class="course-desc">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna.
+                      </p>
+                    </div>
+                  </div>
+        
+                  <div class="course-card card-small">
+                    <div class="img-container img-card-2">
+                      <span class="btn-time">15 mins</span>
+                      <span class="btn-raiting">
+                        4.8
+                        <img src="/img/icons/star.svg" width="15" height="15" alt="">
+                      </span>
+                    </div>
+                    <div class="info-container">
+                      <h4 class="course-category">DESIGN</h4>
+        
+                      <h2 class="course-title">User Interface Design</h2>
+                      <p class="course-desc">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <section class="course-row">
+                  Второй ряд
+                </section>
+              </section>
+            </div>
+          </main>
     </header>
+    <script src="media.js"></script>
+    <script src="wavesurfer.js"></script>
 </body>
 </html>
