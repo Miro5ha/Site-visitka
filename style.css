@@ -313,7 +313,7 @@
   letter-spacing: 0.5px;
   color: #9a9a9b;
 }
-.img-card-3{background: url(img/card-3.png);}
+.img-card-3{background: url(img/card-3.png);background-repeat: no-repeat;}
 .img-card-4{background: url(img/card-4.png);}
 .footer-row-04{
   display: flex;
